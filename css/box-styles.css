@@ -25,3 +25,9 @@ hgroup {
 body {
   text-align: center;
 }
+
+#group-elements {
+  margin: 15px auto;
+  text-align: left;
+  width: 960px;
+}

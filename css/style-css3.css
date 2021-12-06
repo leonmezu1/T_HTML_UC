@@ -1,0 +1,12 @@
+#header-title {
+  background: #DDDDDD;
+  border: 1px solid #999999;
+  display: block;
+  margin: 10px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+#span-title {
+  font: bold 36px verdana, sans-serif;
+}

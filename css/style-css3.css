@@ -5,15 +5,24 @@
   margin: 10px auto;
   padding: 20px;
   text-align: center;
-  -moz-border-radius: 20px 10px 30px 50px;
-  -webkit-border-radius: 20px 10px 30px 50px;
-  border-radius: 20px 10px 30px 50px;
-  -moz-box-shadow: rgb(150, 150, 150) 5px 5px 10px inset;
-  -webkit-box-shadow: rgb(150, 150, 150) 5px 5px 10px inset;
-  box-shadow: rgb(150, 150, 150) 5px 5px 10px inset;
+  -moz-border-radius: 20px / 10px;
+  -webkit-border-radius: 20px / 10px;
+  border-radius: 20px / 10px;
+  -moz-box-shadow: rgb(150, 150, 150) 5px 5px 10px;
+  -webkit-box-shadow: rgb(150, 150, 150) 5px 5px 10px;
+  box-shadow: rgb(150, 150, 150) 5px 5px 10px;
+  background: -webkit-radial-gradient(center, circle, #FFFFFF 0%, #006699 200%);
+  background: -moz-radial-gradient(center, circle, #FFFFFF 0%, #006699 200%);
+  transform: translateY(100px) rotate(45deg) scaleX(0.3);
+  transition: transform 1s ease-in-out;
+}
+
+#header-title:hover {
+  transform: rotate(5deg);
 }
 
 #span-title {
   font: bold 36px verdana, sans-serif;
-  text-shadow: 3px 3px 5px rgb(0, 0, 150);
+  text-shadow: rgba(0, 0, 0, 0.5) 3px 3px 5px;
+  color: hsla(120, 100%, 50%, 0.5);
 }

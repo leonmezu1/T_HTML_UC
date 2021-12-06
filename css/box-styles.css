@@ -49,3 +49,24 @@ body {
   list-style: none;
   padding: 5px;
 }
+
+#section-content {
+  float: left;
+  margin: 20px;
+  width: 660px;
+}
+
+#aside-column {
+  background: #CCCCCC;
+  float: left;
+  margin: 20px 0px;
+  padding: 20px;
+  width: 220px;
+}
+
+#pie {
+  clear: both;
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid #999999;
+}

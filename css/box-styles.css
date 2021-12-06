@@ -37,3 +37,15 @@ body {
   border: 1px solid #999999;
   padding: 20px;
 }
+
+#menu {
+  background: #CCCCCC;
+  padding: 5px 15px;
+}
+
+#menu li {
+  display: inline-block;
+  font: bold 14px verdana, sans-serif;
+  list-style: none;
+  padding: 5px;
+}

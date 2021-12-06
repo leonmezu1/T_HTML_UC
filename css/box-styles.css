@@ -21,3 +21,7 @@ figcaption,
 hgroup {
   display: block;
 }
+
+body {
+  text-align: center;
+}

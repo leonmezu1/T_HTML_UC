@@ -8,8 +8,12 @@
   -moz-border-radius: 20px 10px 30px 50px;
   -webkit-border-radius: 20px 10px 30px 50px;
   border-radius: 20px 10px 30px 50px;
+  -moz-box-shadow: rgb(150, 150, 150) 5px 5px 10px inset;
+  -webkit-box-shadow: rgb(150, 150, 150) 5px 5px 10px inset;
+  box-shadow: rgb(150, 150, 150) 5px 5px 10px inset;
 }
 
 #span-title {
   font: bold 36px verdana, sans-serif;
+  text-shadow: 3px 3px 5px rgb(0, 0, 150);
 }
